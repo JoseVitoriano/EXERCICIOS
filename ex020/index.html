@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psedo elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::after{
+            content: " <link>";
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>personalizando link</h1>
+    <ul>
+        <li><a href="https://github.com/Cursos-TI/desafio-xadrez-Amorim664/blob/main/xadrez.c" target="_blank" rel="external">Repositorio github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=eK9lfMmkDe0&list=PLpaKFn4Q4GMOBAeqC1S5_Fna_Y5XaOQS2&index=15" target="_blank" rel="external">Canal youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" rel="external">Site do cursoemvideo</a></li>
+
+
+    </ul>
+
+    
+</body>
+</html>
